@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 40px 5%;
+}
+
+.hero h2 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.image-grid img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.primary {
+    background-color: green;
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color: black;
+}
+
+
+.about {
+    text-align: center;
+    padding: 50px 5%;
+    font-size: 20px;
+}
+
+
+.testimonials {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.testimonial-card {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 400px;
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.promo {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.promo img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+
+.faq {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.faq details {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.contact {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-content img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.contact button {
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
